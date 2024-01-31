@@ -24,14 +24,14 @@ export default function RootLayout({
       <body className={inter.className}>
         <Container>
           <Row>
-            <Col xs={3}>
+            <Col xs={3} xl={2}>
               <Sidebar>
                 <Link href="/">All Tasks</Link>
                 <Link href="/planner">Planner</Link>
               </Sidebar>
             </Col>
 
-            <Col className='p-5'>
+            <Col className='main-content p-5'>
               {children}
             </Col>
           </Row>

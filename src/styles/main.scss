@@ -3,6 +3,10 @@
 @import 'react-date-picker/dist/DatePicker.css';
 @import '../components/spinner.scss';
 
+.main-content {
+  max-width: 800px;
+}
+
 .react-calendar {
   width: auto;
 
